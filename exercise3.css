@@ -1,0 +1,24 @@
+﻿body
+{
+    background-color: lightgreen;
+}
+
+fieldset
+{
+    background-color: lightgoldenrodyellow;
+    color: lightslategrey;
+    font-family: helvetica;
+    font-size: 12pt;
+}
+
+    fieldset:hover {
+        background-image: url(https://image.shutterstock.com/image-photo/stock-vector-cute-floral-pattern-in-the-small-flower-ditsy-print-motifs-scattered-random-seamless-vector-450w-522904651.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        opacity: .75;
+    }
+
+legend
+{
+    background-color: lightgoldenrodyellow;
+}

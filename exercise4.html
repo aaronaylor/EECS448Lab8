@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>EECS 448 Lab 8 Ex. 4</title>
+    <link href="exercise4.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="exercise4.js"></script>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-left">
+            <p id="paragraphEx">
+                This is a paragraph full of dummy text. It is meant as an example to show how the CSS modification works. 
+                A frog is any member of a diverse and largely carnivorous group of short-bodied, tailless amphibians composing the order Anura (literally without tail in Ancient Greek). The oldest fossil "proto-frog" appeared in the early Triassic of Madagascar, but molecular clock dating suggests their origins may extend further back to the Permian, 265 million years ago. Frogs are widely distributed, ranging from the tropics to subarctic regions, but the greatest concentration of species diversity is in tropical rainforest. There are about 7,300 recorded species, which account for around 88% of extant amphibian species.[1] They are also one of the five most diverse vertebrate orders. Warty frog species tend to be called toads, but the distinction between frogs and toads is informal, not from taxonomy or evolutionary history.
+            </p>
+        </div>
+        <div class="flex-right">
+            <fieldset>
+                <legend>Border</legend>
+                Enter a value 0-255 <br />
+                <label for="borRed">Red Value:</label>
+                <input type="text" id="borRed" name="borRed" /><br />
+                <label for="borGreen">Green Value:</label>
+                <input type="text" id="borGreen" name="borGreen" /><br />
+                <label for="borBlue">Blue Value:</label>
+                <input type="text" id="borBlue" name="borBlue" /><br />
+                Width in px:<br />
+                <label for="borWidth">Width Value:</label>
+                <input type="text" id="borRed" name="borRed" /><br />
+            </fieldset><br />
+            <fieldset>
+                <legend>Background</legend>
+                Enter a value 0-255 <br />
+                <label for="backRed">Red Value:</label>
+                <input type="text" id="backRed" name="backRed" /><br />
+                <label for="backGreen">Green Value:</label>
+                <input type="text" id="backGreen" name="backGreen" /><br />
+                <label for="backBlue">Blue Value:</label>
+                <input type="text" id="backBlue" name="backBlue" /><br />
+            </fieldset>
+            <button type="button" onclick="change()">Change</button>
+        </div>
+    </div>
+</body>
+</html>
